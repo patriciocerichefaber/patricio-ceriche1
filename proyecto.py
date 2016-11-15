@@ -6959,4 +6959,10 @@ def generar():
             if not (numero) in milista:
                   milista.append(numero)
       return milista
+
+def comprobar_numero(milista, n_sorteos):
+      if milista in n_sorteos:
+            return False
+      else:
+            return True
                                
