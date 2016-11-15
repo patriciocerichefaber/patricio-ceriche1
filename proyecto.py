@@ -6965,4 +6965,12 @@ def comprobar_numero(milista, n_sorteos):
             return False
       else:
             return True
+def jugar_siono():
+      l=generar()
+      if comparar_numero(l,n_sorteos):
+            print "jugar"
+            print l
+      else:
+            print "no jugar"
+            print l
                                
